@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "build": "babel index.js --out-dir dist",
-    "server": "http-server -p 80 -o ./dist"
+    "start": "http-server -p 80 -o ./dist"
   },
   "dependencies": {
     "@babel/cli": "^7.12.10",
